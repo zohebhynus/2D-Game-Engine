@@ -1,0 +1,21 @@
+Player
+playerShip.txt
+0 0 
+Bullet
+Bullet.txt
+100 100
+EnemyBase1
+enemyBase1.txt
+0.2 -0.4
+EnemyBase2
+enemyBase2.txt
+-0.7 0.1
+EnemyBase3
+enemyBase3.txt
+0.5 0.6
+EnemyUD1
+enemyUD1.txt
+-0.2 0.6
+EnemyUD2
+enemyUD2.txt
+0.7 -0.6

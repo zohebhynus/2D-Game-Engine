@@ -1,0 +1,10 @@
+Transform
+0.12 0.12 0.5
+Sprite
+rectangleUD2.txt
+UpDown
+1
+Body
+1
+AABB
+0.07 0.07 0.07 0.07                                                                     

@@ -1,0 +1,9 @@
+Transform
+0.1 0.1 0.0
+Sprite
+triangleship.txt
+Controller
+Body
+1
+AABB
+0.05 0.05 0.05 0.05

@@ -1,0 +1,8 @@
+Transform
+0.02 0.02 0.0 
+Sprite
+bulletshape.txt
+Body
+1
+AABB
+0.02 0.02 0.02 0.02 

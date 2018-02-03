@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Text Files">
+      <UniqueIdentifier>{3e796e04-1701-4a17-8d36-8c42590865ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main File">
+      <UniqueIdentifier>{92d61e31-edfc-4847-a6aa-47f91417c193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="frame_rate_controller.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="body.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="event_manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object_manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object_factory.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="input_manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="physics_manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="up_down.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="frame_rate_controller.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="body.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="event_manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object_manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object_factory.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="input_manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shader Files</Filter>
+    </ClInclude>
+    <ClInclude Include="up_down.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="fragment.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="rectangleUD2.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="rectangleUD1.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="rectangleBase3.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="rectangleBase2.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="rectangleBase1.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="playerShip.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="level1.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="enemyUD2.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="enemyUD1.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="enemyBase3.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="enemyBase2.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="enemyBase1.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="enemy2.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="bulletshape.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="Bullet.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+    <Text Include="triangleship.txt">
+      <Filter>Text Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

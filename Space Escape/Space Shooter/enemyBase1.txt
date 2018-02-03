@@ -1,0 +1,8 @@
+Transform
+0.1 0.1 0.0
+Sprite
+rectangleBase1.txt
+Body
+1
+AABB
+0.07 0.07 0.07 0.07
